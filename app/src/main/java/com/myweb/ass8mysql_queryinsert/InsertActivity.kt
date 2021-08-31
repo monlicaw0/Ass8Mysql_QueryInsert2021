@@ -18,6 +18,8 @@ class InsertActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         bindingInsert = ActivityInsertBinding.inflate(layoutInflater)
         setContentView(bindingInsert.root)
+
+
     }
 
     fun addEmployee(v: View) {
